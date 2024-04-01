@@ -37,13 +37,6 @@ class _SignUpScreenState extends State<SignUpScreen> {
           ),
           body: Stack(
             children: [
-              // Container(
-              //   padding: EdgeInsets.only(
-              //       left: 35, top: MediaQuery.of(context).size.height * 0.04),
-              //   child: Text('Create \nAccount',
-              //       style: Theme.of(context).textTheme.displayMedium!.copyWith(
-              //           fontWeight: FontWeight.bold, color: Colors.white)),
-              // ),
               SingleChildScrollView(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,

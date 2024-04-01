@@ -25,53 +25,6 @@ void main() async {
   );
 
   var db = DBconnect();
-  // db.addQuestion(Question(
-  //     id: '01',
-  //     title: 'Which planet is known as the "Red Planet"?',
-  //     options: {
-  //       "Venus": false,
-  //       "Mars": true,
-  //       "Jupiter": false,
-  //       "Saturn": false,
-  //     }));
-  // db.addQuestion(Question(
-  //     id: '02',
-  //     title: 'What is the primary gas found in the Earth\'s atmosphere?',
-  //     options: {
-  //       "Nitrogen": true,
-  //       "Argon": false,
-  //       "Carbon Dioxide": false,
-  //       "Oxygen ": false,
-  //     }));
-  // db.addQuestion(Question(
-  //     id: '03',
-  //     title: 'What does the prefix "kilo" mean in the metric system?',
-  //     options: {
-  //       "Hundred": false,
-  //       "Ten": false,
-  //       "Thousand ": true,
-  //       "Million": false,
-  //     }));
-  // db.addQuestion(Question(
-  //     id: '04',
-  //     title:
-  //         'What word describes a word that spells the same backward and forwards?',
-  //     options: {
-  //       "Homonym": false,
-  //       "Synonym": false,
-  //       "Palindrome ": true,
-  //       "Antonym": false,
-  //     }));
-  // db.addQuestion(Question(
-  //     id: '05',
-  //     title: 'What is the highest-grossing film of all time?',
-  //     options: {
-  //       "Titanic": false,
-  //       "Avatar": false,
-  //       "Star Wars: The Force Awakens": false,
-  //       "Avengers: Endgame": true,
-  //     }));
-
   db.fetchQuestions();
   runApp(const MyApp());
 }
