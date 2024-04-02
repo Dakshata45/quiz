@@ -6,9 +6,9 @@ import '../../quiz_screen/screen/home_screen.dart';
 
 class SignInProvider with ChangeNotifier {
   TextEditingController usernameController =
-      TextEditingController(text: 'kapil@gmail.com');
+      TextEditingController();
   TextEditingController passwordController =
-      TextEditingController(text: 'password');
+      TextEditingController();
 
   signInMethod() {
     FirebaseAuth.instance
